@@ -1,0 +1,27 @@
+{
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "args": [
+                "zsh"
+            ],
+            "overrideName": true,
+            "path": "env"
+        }
+    },
+    "update.mode": "none",
+    "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.layoutControl.enabled": false
+}
